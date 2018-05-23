@@ -1,7 +1,7 @@
 
 public class ForLoopGauntlet {
 	public static void main(String[] args) {
-		// Write a for loop to do each the following:
+		// Write a for loop to do each of the following:
 		// 1. Display all numbers from 0 to 100
 		for (int i = 0; i < 101; i++) {
 			System.out.println(i);
@@ -41,9 +41,38 @@ public class ForLoopGauntlet {
 		// 7. Print all the years you were alive and how old you were in each.
 		// e.g. “In 1979, i was 2 years old.” (for a really old person)
 		for (int i = 2005; i < 2019; i++) {
-			 int age=i-2005;
-			 System.out.println("In "+i+", I was "+age+" years old.");
+			int age = i - 2005;
+			System.out.println("In " + i + ", I was " + age + " years old.");
 		}
+		//Write nested for loops (a for loop inside another for loop) to do the following:
+		//1. Display this output:
+	          //0  0
+	          //0  1
+	          //0  2
+	          //1  0
+	          //1  1
+	          //1  2
+	          //2  0
+	          //2  1
+	          //2  2
+		for (int i = 0; i < 3; i++) {
+			
+		}
+
+	//2. Display the numbers 1 through 9 in a 3x3 square grid like this:
+	          //1  2  3
+	          //4  5  6
+	          //7  8  9
+
+	//3. Display the numbers 1 through 100 in a 10x10 square grid.
+	//4. Display the following output:
+	          //*
+	          //*  *
+	          //*  *  *
+	          //*  *  *  *
+	          //*  *  *  *  *
+	          //*  *  *  *  *  *
+
 
 	}
 }
